@@ -4,7 +4,7 @@ Bookstore website created using bootsrap, scss and vanilla.js technology
 
 ## Table of contents
 
-1. [General info](#General info)
+1. [General_info](#General info)
 2. [Technologies](#Technologies)
 3. [Setup](#Setup)
 4. [Status](#Status)
