@@ -16,6 +16,22 @@
   height: 100%;
 }
 
+#mainCrumb {
+  text-decoration: none;
+  color: black;
+}
+
+.pagination li a,
+.pagination a:hover {
+  color: black;
+}
+
+.pagination .active a {
+  background-color: #ffc107;
+  color: #ffffff;
+  border-color: black;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

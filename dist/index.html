@@ -11,127 +11,223 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">Bookstore</a>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Bookstore</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-                <ul class="navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a href="" class="nav-link active">
-                            Home
+                <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Best
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="jumbotron">
+            <div id="mainHeader"></div>
+            <div class="p-5 mb-4 rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold text-white">Welcome in our bookstore!</h1>
+                    <p class="col-md-8 fs-4 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Labore
+                        quas
+                        dolores
+                        et
+                        culpa quam dolore iure assumenda amet veritatis cum necessitatibus, ut vitae nisi nostrum.</p>
+                    <button class="btn btn-warning btn-lg" type="button">See more</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a id="mainCrumb" href="#">Home page</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    lorem ipsum
+                </li>
+            </ol>
+        </nav>
+        <main class="row">
+            <div class="col-md-3">
+                <h2 class="mb-4">Categories</h2>
+                <div class="list-group">
+
+                    <a href="#" class="list-group-item list-group-item-action bg-warning">
+                        Category 1
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        Category 2
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        Category 3
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        Category 4
+                    </a>
+
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h2 class="mb-4">Products</h2>
+                <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link">
+                            Previous
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            Best
+                    <li class="page-item mx-1 active"><a href="#" class="page-link">
+                            1
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            Contact
+                    <li class="page-item"><a href="#" class="page-link">
+                            2
+                        </a>
+                    </li>
+                    <li class="page-item mx-1"><a href="#" class="page-link">
+                            3
+                        </a>
+                    </li>
+                    <li class="page-item"><a href="#" class="page-link">
+                            Next
                         </a>
                     </li>
                 </ul>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book <span class="badge bg-primary">BEST</span> </h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book <span class="badge bg-primary">BEST</span> </h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book <span class="badge bg-primary">BEST</span> </h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book</h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book</h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book</h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book <span class="badge bg-danger">NEW</span> </h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card ">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book <span class="badge bg-danger">NEW</span> </h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="./images/bookExample.jpg" alt="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title">Book</h3>
+                                <p>Read this book</p>
+                            </div>
+                            <div class="card-footer">49,99 $</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 class="text-white">Bookstore</h4>
+                    <p class="text-white text-justify">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Doloribus ab recusandae modi explicabo impedit. Recusandae illum doloremque porro consectetur,
+                        nulla suscipit perferendis architecto, fugit est labore adipisci, repellendus pariatur culpa
+                        amet eaque rerum tempora at ipsam dolore quam eligendi facilis reiciendis! Illo animi harum et
+                        temporibus ex voluptatum similique ipsum.</p>
+                </div>
+                <div class="col-md-4"></div>
             </div>
         </div>
-    </nav>
-    <div class="container" id="jumbotron">
-        <div id="mainHeader"></div>
-        <div class="p-5 mb-4 rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold text-white">Welcome in our bookstore!</h1>
-                <p class="col-md-8 fs-4 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing
-                    elit. Labore
-                    quas
-                    dolores
-                    et
-                    culpa quam dolore iure assumenda amet veritatis cum necessitatibus, ut vitae nisi nostrum.</p>
-                <button class="btn btn-primary btn-lg" type="button">See more</button>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus
-            tenetur,
-            explicabo alias ab nemo
-            quibusdam, ad suscipit voluptas, dolorum cumque quia? Quae corrupti eos accusantium soluta. Animi illum unde
-            excepturi tenetur iusto esse veniam sequi sed? Quaerat atque laudantium optio accusantium placeat cupiditate
-            sapiente veniam numquam fugiat enim laboriosam expedita incidunt porro, illo perferendis, vitae reiciendis
-            odio provident quae, fugit distinctio pariatur reprehenderit dolore impedit! Numquam esse blanditiis
-            ducimus, consectetur iure quia adipisci fugiat aspernatur officiis maiores natus perferendis consequuntur
-            atque! Commodi adipisci aperiam dolore incidunt, saepe quidem. Nemo quasi libero optio exercitationem
-            debitis repudiandae, saepe voluptatibus rerum aspernatur minus tenetur at dicta enim consectetur delectus
-            iste aliquam blanditiis tempora neque. Dolorum debitis in, fuga molestiae maiores et perspiciatis esse
-            veritatis magnam nesciunt quisquam. Eum, magni aspernatur repudiandae ab aliquid eaque temporibus quia
-            praesentium dolorem quas assumenda omnis est adipisci cumque possimus doloremque culpa sequi, sint non hic
-            officia ut? Necessitatibus consequatur magni aspernatur a qui quibusdam laudantium cupiditate, quae ab est
-            eius sed reprehenderit! Omnis quaerat blanditiis consectetur ipsa quia maxime animi, architecto quae
-            molestias eligendi saepe recusandae ad expedita voluptatum nemo dicta quod? Necessitatibus optio magni totam
-            nam inventore delectus a eos placeat, voluptate, odio quibusdam? Vitae numquam, sequi natus non delectus
-            eligendi in magnam voluptates qui nobis autem sunt laboriosam, commodi saepe quas illum id voluptate ea
-            repellat fugiat est molestias unde sapiente. Sit, repellendus nam voluptates voluptate error excepturi?
-            Molestiae obcaecati incidunt debitis eligendi, ab repudiandae ipsum voluptatibus, nobis dolores minima
-            laboriosam quo ut est dolorum necessitatibus natus delectus nostrum impedit cumque illum, a adipisci. Sed
-            excepturi, laboriosam ducimus quae quasi molestiae possimus fugiat ullam sit tempore ex reprehenderit error
-            repudiandae iste numquam, sunt sapiente qui velit. Non a minima sequi explicabo, unde illo, nemo corporis
-            facere sed recusandae fuga laudantium distinctio quas perspiciatis sunt maiores dolorem natus modi nobis.
-            Reiciendis rerum ducimus vitae facilis, tenetur ut voluptas temporibus porro, nemo aspernatur cumque, natus
-            ullam nobis officiis dolorum fugiat praesentium illum nisi sint. Dolores quasi porro dolore odit,
-            consequuntur aut eaque eos mollitia quia minima ad debitis ea ipsam sint repudiandae pariatur obcaecati nisi
-            nam error? Neque unde nobis illo, perspiciatis quaerat doloremque totam eum? Vitae vero minus doloribus,
-            nisi veniam quae commodi soluta eveniet deserunt harum tempora, culpa earum quaerat labore debitis
-            laudantium cupiditate hic rem enim? Distinctio obcaecati ipsum asperiores tenetur quisquam quam quaerat
-            maxime, omnis nobis vel nemo ipsam, inventore corporis est odit! Illo cumque quaerat vitae ullam numquam
-            natus totam quibusdam ad aperiam adipisci. Sit modi eligendi culpa earum doloremque provident, iure natus
-            ad, possimus voluptatem, eos vitae incidunt non doloribus beatae fugiat inventore exercitationem temporibus
-            vero. Ut sequi, aspernatur sunt, nulla omnis deleniti sed, molestiae quidem quia eum ad nihil beatae illum
-            dolores! Illum odit labore fugiat doloribus atque ipsa excepturi numquam quos odio iure fuga, accusantium
-            molestias eligendi quae, minus dolorum voluptas laboriosam commodi harum aspernatur hic repellat culpa
-            placeat perspiciatis? Esse inventore necessitatibus officia provident consequuntur unde dicta incidunt
-            magnam dolore in vel totam facere explicabo debitis quaerat ipsa facilis, soluta nemo. Voluptatibus odit
-            quasi eius porro sapiente facilis commodi et blanditiis ut debitis voluptates error fugiat eveniet culpa,
-            illo explicabo aliquid ex quo, molestiae, dicta corporis asperiores hic nesciunt corrupti. Dignissimos,
-            aliquam quidem pariatur aliquid soluta deleniti! Officia laudantium expedita atque, qui reiciendis quas
-            minima sunt voluptatem nobis tempora repudiandae ex nisi, quae molestias amet. Atque perspiciatis quod neque
-            nemo autem eveniet, voluptates quo ducimus ipsum culpa iste, magnam laborum eum mollitia. Accusamus
-            explicabo ab error voluptatibus? Consequuntur fugiat voluptates corrupti est, ipsa eligendi ex amet fuga
-            ducimus quas sed, eaque cum obcaecati quos nam quo nisi corporis laudantium illum fugit voluptatibus impedit
-            similique iure possimus. Rerum itaque libero quam ab deserunt molestiae autem illum beatae vitae
-            exercitationem molestias, quasi saepe laboriosam porro expedita eius earum deleniti sequi adipisci velit
-            nobis. Maxime, laudantium autem expedita aliquid beatae non commodi enim fuga rem, tenetur ad labore amet
-            laborum exercitationem nulla ex molestiae in? Cum ipsam necessitatibus ut voluptate neque aspernatur est
-            veniam vel, odio fugit illo accusamus provident molestias debitis qui nam nostrum facilis doloribus ab sunt
-            excepturi libero, suscipit nihil maiores. Consequatur voluptatum suscipit autem corporis maxime provident
-            assumenda, amet pariatur dolorum! Quis eum repellat dolorum et! Dolorem fugiat aliquid dicta, obcaecati
-            tempora sit exercitationem quo? Ratione quae illum incidunt perspiciatis alias, aspernatur debitis natus!
-            Eius est voluptas exercitationem alias accusantium dicta, nihil ab error commodi mollitia beatae consequatur
-            voluptates optio nulla, adipisci doloribus ex rem expedita non officia. Minus tempora rem deleniti qui
-            fugiat nemo exercitationem doloribus in delectus dignissimos! Quidem animi qui facere hic aliquid voluptatum
-            totam placeat atque quis nemo deleniti corporis eaque necessitatibus dolore ducimus molestias, quam culpa
-            soluta, tenetur accusantium! Corrupti maiores nesciunt esse cumque deserunt assumenda inventore tenetur
-            saepe quaerat? Vel, exercitationem molestias! Nulla fuga vitae illum totam, cumque nihil voluptatem adipisci
-            architecto corporis incidunt ratione sunt voluptatibus dolorum doloremque distinctio perspiciatis
-            consequuntur, hic porro laboriosam fugit laborum dolor asperiores labore. Laborum, commodi, optio,
-            voluptates fuga quibusdam rerum reiciendis provident repudiandae architecto aspernatur suscipit ab nemo
-            quisquam rem error dolore quo sapiente fugiat est et debitis tenetur? Totam quidem ducimus culpa
-            perferendis, dignissimos voluptatibus aliquid et libero fugiat rem sit dolore debitis pariatur aliquam
-            magnam impedit, modi sed repellendus? Laboriosam mollitia harum libero quaerat ut dolorem officiis!
-            Repudiandae similique optio explicabo nulla quasi deserunt ut sed. Sint aliquam similique cum, tenetur
-            itaque libero iure est veritatis tempora nobis et repudiandae delectus a voluptatibus eos, modi amet
-            repellendus? Distinctio laboriosam eligendi sequi totam ex tenetur. Ad, debitis facere. Earum, nihil sed
-            neque quaerat quae reiciendis at quidem fugit, ullam fuga facilis eaque, ad velit vero veritatis sit?
-            Accusamus quis aperiam dolores voluptatibus officia quaerat harum sequi similique quos inventore! Laborum
-            enim ipsam commodi facere, esse mollitia nam dignissimos ratione numquam. Iusto numquam, laborum dicta
-            voluptas quos atque, sit voluptatibus error blanditiis est praesentium ipsam magni, deleniti at nisi
-            excepturi? Dolores magni amet deserunt laboriosam aliquid commodi similique iste eum accusamus eius, quis
-            mollitia provident? Illo aliquid aspernatur numquam earum sunt quidem dignissimos!</p>
-    </div>
+    </footer>
+
+
     <script src="./main.js"></script>
 </body>
 
