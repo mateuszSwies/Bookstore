@@ -1,37 +1,4 @@
 @charset "UTF-8";
-#jumbotron {
-  position: relative;
-}
-
-#mainHeader {
-  background-image: url(../images/headerBookstore.jpg);
-  background-position: center bottom;
-  -webkit-filter: grayscale(80%);
-          filter: grayscale(80%);
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#mainCrumb {
-  text-decoration: none;
-  color: black;
-}
-
-.pagination li a,
-.pagination a:hover {
-  color: black;
-}
-
-.pagination .active a {
-  background-color: #ffc107;
-  color: #ffffff;
-  border-color: black;
-}
-
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -12184,4 +12151,36 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#jumbotron {
+  position: relative;
+}
+
+#mainHeader {
+  background-image: url(../images/headerBookstore.jpg);
+  background-position: center bottom;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#mainCrumb {
+  text-decoration: none;
+  color: black;
+}
+
+.pagination li a,
+.pagination a:hover {
+  color: black;
+}
+
+.pagination .active a {
+  background-color: #ffc107;
+  color: #ffffff;
+  border-color: black;
 }
