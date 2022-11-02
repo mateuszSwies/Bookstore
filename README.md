@@ -16,6 +16,9 @@ I created this page as a project to summarize my learning of Bootstrap technolog
 You can see different categories of products on the site. Some of them are labeled "BEST" and some "NEW." 
 
 
+You can also check the 'Contact' tab at the top, to see modal window with contact info.
+
+
 # Technologies
 
 In this project, I used the following technologies:
