@@ -16,6 +16,9 @@ I created this page as a project to summarize my learning of Bootstrap technolog
 You can see different categories of products on the site. Some of them are labeled "BEST" and some "NEW." 
 
 
+You can also check the 'Contact' tab at the top, to see modal window with contact info.
+
+
 # Technologies
 
 In this project, I used the following technologies:
@@ -30,7 +33,7 @@ In this project, I used the following technologies:
 
 # Status
 
-I am still working on the development of this project. In the near future, I plan to add more page tabs (Best and Contact), as well as the ability to move pages in the product view (currently there is one page for each product).
+I am still working on the development of this project. In the near future, I plan to add 'Best' tab, as well as the ability to move pages in the product view (currently there is one page for each product category).
 
 The next step will be to make a dark mode for the whole site, and finally the ability to create a shopping cart with products.
 
