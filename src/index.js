@@ -6,7 +6,8 @@ const testjs = document.querySelector("#firstMainHeader");
 const sideMenuList = [...document.querySelectorAll(".list-group a")];
 const pagination = [...document.querySelectorAll(".pagination li")];
 const mainBtn = document.querySelector("#jumbotron button");
-
+const main = document.body.querySelector("main.row");
+const linksList = [...document.body.querySelectorAll(`a[href="#"]`)];
 //functions
 
 const changeActiveElement = (selector) => {
@@ -21,10 +22,10 @@ const changeActiveElement = (selector) => {
 };
 
 const showMore = () => {
-	const main = document.body.querySelector("main.row");
 	main.scrollIntoView({ behavior: "smooth" });
 };
 
+console.log(linksList);
 //caling functions
 changeActiveElement(sideMenuList);
 changeActiveElement(pagination);
