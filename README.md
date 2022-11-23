@@ -1,6 +1,6 @@
 # Bookstore - web site
 
-Bookstore website created using bootsrap, scss and vanilla.js technology
+Bookstore website created using bootsrap, scss and vanilla.js technology. You can watch it here: https://mateuszswies.github.io/Bookstore/
 
 ## Table of contents
 
